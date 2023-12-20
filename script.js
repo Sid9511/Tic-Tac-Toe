@@ -80,7 +80,7 @@ rstBtn.addEventListener("click", () => {
     boxes.forEach((box) => {
         console.log("Game Reset!");
         box.innerHTML = " ";
-        box.style.color = " ";
+        box.style.color = "";
         msgs.style.display = "none";
     });
 });
