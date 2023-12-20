@@ -81,6 +81,7 @@ rstBtn.addEventListener("click", () => {
         console.log("Game Reset!");
         box.innerHTML = " ";     
         msgs.style.display = 'none';
+        box.style.color = "none";
     });
 });
 
