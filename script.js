@@ -79,9 +79,9 @@ const checkWinner = () => {
 rstBtn.addEventListener("click", () => {
     boxes.forEach((box) => {
         console.log("Game Reset!");
-        box.innerHTML = " ";     
-        msgs.style.display = 'none';
-        box.style.color = "none";
+        box.innerHTML = " ";
+        box.style.color = " ";
+        msgs.style.display = "none";
     });
 });
 
